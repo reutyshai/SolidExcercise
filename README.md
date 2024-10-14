@@ -64,11 +64,11 @@ This project adheres to the SOLID principles to enhance maintainability, scalabi
 
 1. **Single Responsibility Principle (SRP)**:
     - Each class has a specific responsibility. For example, `Customer` is solely responsible for customer data
-      management, while `FillFormField` handles filling forms. This separation allows for easier modifications and
+      management, while `FormFillable` handles filling forms. This separation allows for easier modifications and
       testing.
 
 2. **Open/Closed Principle (OCP)**:
-    - The use of interfaces, such as `UniversalDriver` and `Form`, allows for easy extension of functionality without
+    - The use of interfaces, such as `UniversalDriver` and `FormFillable`, allows for easy extension of functionality without
       modifying existing code. For instance, new browser drivers can be added without changing the core test logic.
 
 3. **Liskov Substitution Principle (LSP)**:
@@ -76,7 +76,7 @@ This project adheres to the SOLID principles to enhance maintainability, scalabi
       `UniversalDriver` is expected, ensuring that the application can work with different drivers seamlessly.
 
 4. **Interface Segregation Principle (ISP)**:
-    - Interfaces are designed to be specific to their contexts. The `Form` interface provides a clear contract for
+    - Interfaces are designed to be specific to their contexts. The `FormFillable` interface provides a clear contract for
       form-filling classes, ensuring that they only implement methods relevant to them.
 
 5. **Dependency Inversion Principle (DIP)**:
