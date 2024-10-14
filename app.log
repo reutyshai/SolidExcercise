@@ -1,0 +1,10 @@
+2024-10-14 13:14:05 - Test [1] 0 passed!
+2024-10-14 13:14:18 - Test [2] 1 passed!
+2024-10-14 13:35:27 - Test [1] 5 failed, The reason is: org.opentest4j.MultipleFailuresError: Multiple Failures (2 failures)
+	org.opentest4j.AssertionFailedError: expected: <1> but was: <3>
+	java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 1
+2024-10-14 13:35:37 - Test [2] 3 failed, The reason is: org.opentest4j.MultipleFailuresError: Multiple Failures (2 failures)
+	org.opentest4j.AssertionFailedError: expected: <2> but was: <6>
+	java.lang.IndexOutOfBoundsException: Index 5 out of bounds for length 2
+2024-10-14 14:08:46 - Test [1] 2 passed!
+2024-10-14 14:08:55 - Test [2] 3 passed!
